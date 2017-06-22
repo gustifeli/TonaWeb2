@@ -6,7 +6,7 @@
     margin: auto;
     padding: 10px;
     background-color: black;
-    border-radius: 0px;
+    border-radius: inherit;
 }
 
 #img { /*img maniqui TONA*/
@@ -41,9 +41,9 @@
 }
 
 #jmb {
-    padding-bottom: 0px;
-    padding-top: 0px;
-    padding: 0px;
+    padding-bottom: 0;
+    padding-top: 0;
+    padding: 0;
 }
 
 .carousel-indicators {
@@ -59,6 +59,10 @@
 .aTxtColor:hover {
     color: white;
     text-decoration: none;
+}
+.aTxtColor:active {
+    color: white;
+    text-decaration: none;
 }
 .aTxtColor {
     color: white;

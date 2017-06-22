@@ -30,6 +30,8 @@ namespace TonaWeb
                       "~/Content/style.css",
                       "~/Content/styleinvierno.css",
                       "~/Content/styleverano.css",
+                      "~/Content/styleAdmin.css",
+                      "~/Content/styleAddProducto.css",
                       "~/Content/styleContacto.css"));
         }
     }
