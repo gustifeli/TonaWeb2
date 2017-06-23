@@ -393,7 +393,7 @@ namespace TonaWeb.Controllers
         public ActionResult LogOff()
         {
             AuthenticationManager.SignOut(DefaultAuthenticationTypes.ApplicationCookie);
-            return RedirectToAction("Login", "Admin");
+            return RedirectToAction("Login", "Account");
         }
 
         //
