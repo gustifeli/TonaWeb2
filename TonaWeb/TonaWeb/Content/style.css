@@ -6,7 +6,7 @@
     margin: auto;
     padding: 10px;
     background-color: black;
-    border-radius: inherit;
+    border-radius: 0px;
 }
 
 #img { /*img maniqui TONA*/
@@ -36,21 +36,22 @@
     background-color: black;
 }
 
-#htmlLayoutTonaWhite{
-    height: 100%; background-color: white;
+#htmlLayoutTonaWhite {
+    height: 100%;
+    background-color: white;
 }
 
 #jmb {
-    padding-bottom: 0;
-    padding-top: 0;
-    padding: 0;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding: 0px;
 }
 
 .carousel-indicators {
     top: 85%;
 }
 
-#btnMenu{
+#btnMenu {
     position: absolute;
     right: 9px;
     padding: 9px;
@@ -60,10 +61,7 @@
     color: white;
     text-decoration: none;
 }
-.aTxtColor:active {
-    color: white;
-    text-decaration: none;
-}
+
 .aTxtColor {
     color: white;
 }
@@ -73,6 +71,7 @@
     padding-top: 15px;
     padding-left: 15px;
 }
+
 #imgLO {
     padding: 15px;
 }
