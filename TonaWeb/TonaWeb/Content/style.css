@@ -35,9 +35,13 @@
     min-height: 95%;
     background-color: black;
 }
+#bodyLayoutTona{
+    background-color: black;
+}
 
-#htmlLayoutTonaWhite{
-    height: 100%; background-color: white;
+#htmlLayoutTonaWhite {
+    height: 100%;
+    background-color: white;
 }
 
 #jmb {
@@ -50,7 +54,7 @@
     top: 85%;
 }
 
-#btnMenu{
+#btnMenu {
     position: absolute;
     right: 9px;
     padding: 9px;
@@ -60,6 +64,7 @@
     color: white;
     text-decoration: none;
 }
+
 .aTxtColor {
     color: white;
 }
@@ -69,6 +74,7 @@
     padding-top: 15px;
     padding-left: 15px;
 }
+
 #imgLO {
     padding: 15px;
 }

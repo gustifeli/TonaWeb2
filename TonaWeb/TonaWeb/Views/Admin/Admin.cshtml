@@ -4,12 +4,10 @@
 <section>
     <div class="row">
         <div class="col-xs-0 col-md-2"></div>
-        <div id="column" class="col-xs-12 col-md-8">
-            <h1>Productos</h1>
-
-            <p class="text-right"><a href="~/Views/Admin/AddProduct.cshtml" type="button" class="btn btn-primary btn-sm"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Producto</a></p>
-            <tbody>
-                <table class="table table-striped">
+            <h1 id="productos">Productos</h1>
+            <a href="@Url.Action("AddProduct","Admin")" class="btn btn-default"><span class="glyphicon glyphicon-plus-sign"></span> Producto</a>
+            <div class="table">
+                <table class="table table-hover">
                     <tr>
                         <th style="text-align: left; vertical-align: middle; width: 20%;">Imagen</th>
                         <th style="text-align: left; vertical-align: middle; width: 50%;">Descripción</th>
@@ -81,8 +79,7 @@
                     </tr>
 
                 </table>
-            </tbody>
+            </div>
         </div>
-    </div>
 </section>
 
