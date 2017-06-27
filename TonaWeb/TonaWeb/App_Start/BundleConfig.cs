@@ -26,7 +26,7 @@ namespace TonaWeb
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
                       "~/Content/bootstrap.min.css",
-                      "~/Content/stylegalery.css",
+                      "~/Content/styleGalery.css",
                       "~/Content/style.css",
                       "~/Content/styleinvierno.css",
                       "~/Content/styleverano.css",
