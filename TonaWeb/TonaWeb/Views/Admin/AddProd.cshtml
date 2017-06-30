@@ -1,0 +1,21 @@
+﻿
+@model Producto
+@{
+    ViewBag.Title = "AddProd";
+    Layout = "~/Views/Shared/_LayoutTonaUser.cshtml";
+}
+
+<body>
+    <div class="row">
+        <div class="col-xs-0 col-md-3"></div>
+        <div class="col-xs-12 col-md-6">
+            <div  class="form-group">
+                @Html.Label("Descripcion", new { @class = "control-label" })
+                <div>
+                    @Html.TextBox(m => m.descripcion )
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
