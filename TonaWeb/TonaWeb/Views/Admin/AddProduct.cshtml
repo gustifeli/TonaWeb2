@@ -4,7 +4,7 @@
 <section>
     <div class="row">
         <div class="col-xs-0 col-md-3"></div>
-        <div class="col-xs-12 col-md-6">
+        <div id="cont" class="col-xs-12 col-md-6">
             <form method="post" action="@Url.Action("AddProduct", "Admin")">
                 <div class="form-group">
                     <label for="titulo" style="font-size: 2em;"><strong>Producto:</strong></label>
@@ -23,6 +23,8 @@
                                         <input type="file"/></label>
                                     </p>*@
                                     <input type="file"/>
+                                    <label class="checkbox-inline"><input type="checkbox" value="0">Primavera-Verano</label>
+                                    <label class="checkbox-inline"><input type="checkbox" value="1">Otoño-Invierno</label>
                                 </th>
                                 <th style="text-align: left; vertical-align: middle; width: 80%;">
                                     <p><img id="imgMin" src="~/Image/tona1.jpg" class="img-rounded"></p>

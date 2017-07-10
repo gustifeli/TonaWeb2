@@ -2,15 +2,14 @@
     width:200px;
     height: 136px;
 }
+.contenedor {
+    opacity: 0.9;
+}
 .btn-default {
-    margin-bottom: 1%;
-    margin-left: 75%;
-}
-#row {
-    padding-left: inherit;
-    padding-right: inherit;
-}
-.btn-default:hover,.btn-default:active {
+    float: right;
+} 
+
+.btn-default:hover, .btn-default:active {
     background-color: black;
     color: white;
 }
